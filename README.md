@@ -14,7 +14,7 @@ Feel free to browse through the projects, explore the code, and provide any feed
 I am continuously working on new projects and updating existing ones. Stay tuned for more exciting content!
 
 ## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your_username/repository_name/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/KJ1201/Learning/issues).
 
 ## 🌟 Acknowledgements
 A big thank you to everyone who has supported me in my learning journey!
