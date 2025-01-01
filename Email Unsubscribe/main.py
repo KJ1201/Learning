@@ -5,8 +5,6 @@ import imaplib
 from bs4 import BeautifulSoup
 import requests
 
-# create an env file
-
 load_dotenv()
 
 username = os.getenv("EMAIL")
