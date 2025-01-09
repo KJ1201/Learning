@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block
+page_header%} Enter the Chat Root {% endblock %} {% block content %}
+
+<div class="card-body">
+        <form method="post">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+            <input
+            name="name"
+            value="{{name}}"
+            type="text"
+            class="form-control"
+            />
+        </div>
+        <div class="input-group mb-3">
+            <input
+            name="code"
+            value="{{code}}"
+            type="text"
+            class="form-control"
+            placeholder="Room Code"
+            />
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-outline-primary" type="submit" name="join">Join Room</button>
+  <button class="btn btn-outline-danger" type="submit" name="create">Create New Room</button>
+</div>
+    </form>
+
+</div>
+{% endblock %}
